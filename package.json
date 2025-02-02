@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/raza1315/RabbitMq#readme",
   "dependencies": {
+    "amqplib": "^0.10.5",
     "express": "^4.21.2"
   }
 }
