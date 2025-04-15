@@ -8,6 +8,4 @@ services:
    - RABBITMQ_DEFAULT_USER: raza
    - RABBITMQ_DEFAULT_PASS: raza1315
   volumes:
-   - rabbitmq_data:/var/lib/rabbitmq
-volumes:
- rabbitmq_data:
+   - ./rabbitmq_data:/var/lib/rabbitmq
