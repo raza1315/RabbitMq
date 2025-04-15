@@ -4,7 +4,7 @@ services:
   ports:
    - "5672:5672" #rmq server
    - "15672:15672" #rmq management interface
-  environment:
+  environments:
    - RABBITMQ_DEFAULT_USER: raza
    - RABBITMQ_DEFAULT_PASS: raza1315
   volumes:
