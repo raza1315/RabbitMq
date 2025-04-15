@@ -1,0 +1,3 @@
+VHOST: /
+QUEUE: user_processing_queue
+INDEX: v2
